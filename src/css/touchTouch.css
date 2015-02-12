@@ -1,5 +1,3 @@
-/* The gallery overlay */
-
 #galleryOverlay {
     width: 100%;
     height: 100%;
@@ -17,8 +15,6 @@
     -webkit-transition: opacity 1s ease;
     transition: opacity 1s ease;
 }
-
-/* This class will trigger the animation */
 
 #galleryOverlay.visible {
     opacity: 1;
@@ -48,9 +44,6 @@
     display: inline-block;
 }
 
-/* The before element moves the
- * image halfway from the top */
-
 #gallerySlider .placeholder:before {
     content: "";
     display: inline-block;
@@ -76,8 +69,6 @@
     -webkit-animation: leftSpring 0.3s;
 }
 
-/* Firefox Keyframe Animations */
-
 @-moz-keyframes rightSpring {
     0% {
         margin-left: 0px;
@@ -102,8 +93,6 @@
     }
 }
 
-/* Safari and Chrome Keyframe Animations */
-
 @-webkit-keyframes rightSpring {
     0% {
         margin-left: 0px;
@@ -127,8 +116,6 @@
         margin-left: 0px;
     }
 }
-
-/* Arrows */
 
 #prevArrow, #nextArrow {
     border: none;
