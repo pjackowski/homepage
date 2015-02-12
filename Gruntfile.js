@@ -156,6 +156,7 @@ module.exports = function (grunt) {
             // In-depth information about the options:
             // https://github.com/addyosmani/grunt-uncss#options
             options: {
+                ignore: ['#prevArrow', '#nextArrow', '#galleryOverlay', '#gallerySlider'],
                 ignoreSheets: [/fonts.googleapis/]
             }
         },
