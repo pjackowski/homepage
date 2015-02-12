@@ -87,8 +87,6 @@ em {
     display: inline-block;
     color: #000;
     font-weight: bold;
-    -webkit-box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.22);
-    -moz-box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.22);
     box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.22);
     transition: all 0.25s ease;
 }
