@@ -25,6 +25,14 @@ $(document).ready(function() {
         $.scrollTo('#motto', scrollSpeed, scrollToSetup);
     });
 
+    //this is hack for issue with Grunt uncss task,
+    //remove dummy containers before starting gallery
+    $('#prevArrow').remove();
+    $('#nextArrow').remove();
+    $('#galleryOverlay').remove();
+    $('#gallerySlider').remove();
+    //end of hack
+
     $('.gallery a').touchTouch();
 
 });
