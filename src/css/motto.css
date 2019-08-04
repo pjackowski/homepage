@@ -2,14 +2,12 @@
     margin: 100px auto 50px auto;
     padding: 0px 15px;
     max-width: 700px;
-    text-align: center;
+    text-align: right;
     font-weight: normal;
 }
 
 .motto h1 {
     font-size: 40px;
-    line-height: 36px;
-    line-height: 1;
     color: #444;
 }
 
@@ -17,5 +15,4 @@
     color: #666;
     text-align: right;
     font-size: 20px;
-    line-height: 20px;
 }
