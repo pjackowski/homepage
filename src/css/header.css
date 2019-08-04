@@ -12,13 +12,14 @@
 }
 
 .header h1 {
-    margin: 20px 0px 0px 10px;
+    margin: 8px 0px 0px 10px;
     color: #444;
     font-size: 26px;
     float: left;
     display: inline;
 }
 
+/*
 .header h1:hover {
     -webkit-animation: shake-header 0.5s;
     -moz-animation:    shake-header 0.5s;
@@ -54,3 +55,4 @@
     75%  { transform: rotate( 3deg); }
     100% { transform: rotate( 0deg); }
 }
+*/
