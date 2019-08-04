@@ -1,22 +1,22 @@
 @font-face {
-    font-family: 'Nothing You Could Do';
+    font-family: 'Oswald Regular';
     font-style: normal;
     font-weight: 400;
-    src: local('Nothing You Could Do'), local('NothingYouCouldDo'), url(../fonts/Nothing-You-Could-Do.woff) format('woff');
+    src: local('Oswald Regular'), local('OswaldRegular'), url(../fonts/Oswald-Regular.ttf) format('truetype');
 }
 
 h1 {
-    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Oswald Regular';
 }
 
 h2 {
-    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Oswald Regular';
 }
 
 h3 {
-    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Oswald Regular';
 }
 
 h4 {
-    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Oswald Regular';
 }
