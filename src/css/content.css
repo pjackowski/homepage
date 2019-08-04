@@ -1,3 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Auto scroll for users with disabled smooth scroll in browser:
+   https://gomakethings.com/smooth-scrolling-links-with-only-css/ */
+@media screen and (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
 body {
     padding: 0px;
     margin: 0px;
