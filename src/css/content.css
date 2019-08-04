@@ -40,6 +40,9 @@ em {
     color: #444;
     border-bottom: 1px solid #CCC;
     margin-bottom: 15px;
+
+    /* Offset for anchor scrolls, I have removed margin top from all portfolio sections */
+    margin-top: 60px;
 }
 
 .content h3 {
@@ -56,8 +59,10 @@ em {
 .item {
 }
 
+.fluid {
+}
+
 .intro {
-    margin-top: 20px;
 }
 
 .intro img {
@@ -69,7 +74,6 @@ em {
 }
 
 .skills {
-    margin-top: 40px;
 }
 
 .skills li {
@@ -77,11 +81,9 @@ em {
 }
 
 .portfolio {
-    margin-top: 40px;
 }
 
 .hobby {
-    margin-top: 40px;
 }
 
 .documents {
