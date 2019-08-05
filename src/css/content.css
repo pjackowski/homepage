@@ -19,6 +19,7 @@ body {
 
 p {
     text-align: justify;
+    line-height: 1.2em;
 }
 
 a {
@@ -77,9 +78,17 @@ em {
 .skills {
 }
 
-.skills li {
-    margin-bottom: 10px;
+.skills li p {
+    margin: 5px 0px;
 }
+
+.skills li em {
+    display: inline-block;
+    min-width: 110px;
+    font-style: normal;
+    background-color: transparent;
+}
+
 
 .portfolio {
 }
