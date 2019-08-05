@@ -19,7 +19,6 @@ body {
 
 p {
     text-align: justify;
-    line-height: 1.2em;
 }
 
 a {
@@ -44,7 +43,8 @@ em {
     margin-bottom: 15px;
 
     /* Offset for anchor scrolls, I have removed margin top from all portfolio sections */
-    margin-top: 60px;
+    margin-top: -20px;
+    padding-top: 60px;
 }
 
 .content h3 {
@@ -56,6 +56,12 @@ em {
 
 .content p {
     margin: 15px 15px 15px 0px;
+    line-height: 1.2em;
+}
+
+.content p a {
+    text-decoration: underline;
+    color: #444;
 }
 
 .item {
