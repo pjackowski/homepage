@@ -42,7 +42,7 @@ em {
     border-bottom: 1px solid #CCC;
     margin-bottom: 15px;
 
-    /* Offset for anchor scrolls, I have removed margin top from all portfolio sections */
+    /* Offset for anchor scrolls, I have removed margin top from all sections */
     margin-top: -20px;
     padding-top: 60px;
 }
@@ -95,7 +95,7 @@ em {
     background-color: transparent;
 }
 
-.portfolio {
+.projects {
 }
 
 .hobby {
