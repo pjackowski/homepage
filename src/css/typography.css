@@ -5,6 +5,11 @@
     src: local('Oswald Regular'), local('OswaldRegular'), url(../fonts/Oswald-Regular.ttf) format('truetype');
 }
 
+body {
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: 'Oswald Regular';
+}
+
 h1 {
     font-family: 'Oswald Regular';
 }
