@@ -164,17 +164,21 @@
                         <span class="label">Raphael.js</span>
                     </div>
 
-                    <p>Implementation of force based algorithm. Physics! I love physics! ;-) Position of nodes in the graph depends on the resultant force - set of forces reduced to single vector. There are three main forces computed for each node in each step:</p>
+                    <p>My implementation of the force-based algorithm. Physics! Did I mention I love physics?! ;-] Position of nodes in the graph depends on the resultant force - set of forces reduced to a single vector. There are three main forces computed for each node in each step:</p>
 
                     <ul>
                         <li>repulsion based on Coulomb's law, as all nodes carry the same charge</li>
-                        <li>resilience of spring connecting nodes based on the Hooke's law</li>
-                        <li>gravity force which pulls up nodes, so single nodes or separated groups stay fairly close to the center of mass</li>
+                        <li>the resilience of spring connecting nodes based on the Hooke's law</li>
+                        <li>gravity force which pulls up nodes, so single nodes or separated groups stay fairly close to the centre of mass</li>
                     </ul>
 
-                    <p>Initial position is random - far from optimum in terms of energy. Such a state is very unstable and once simulation starts diagram stabilizes. At the end of simulation graph is in it's local minimum state of energy, which might not be global minimum (perfect state), but often is good enough. Energy minimum means that all spring driven forces are in balance with repulsion electric forces. Physically nodes are not moving anymore and kinetic energy is zero or almost zero. Another important thing is friction dampening. it wastes energy, so simulation stops, otherwise it would keep moving forever - it is called perpetum mobile ;-)</p>
+                    <p>The initial position is random - far from optimum in terms of energy. Such a state is very unstable and once simulation starts diagram stabilizes. In the end, the graph is very close to its local minimum state of energy. This might not be a global minimum - perfect state, but often is good enough and requires less computation.</p>
 
-                    <p>Each node has a mass, size and color depending on it's value read from data set. In other words bigger value - bigger mass and size of bubble. Relation between nodes is expressed by length of spring, closer relation - shorter spring.</p>
+                    <p>Energy minimum means that all spring-driven forces are in balance with repulsion electric forces. Nodes are not moving anymore and kinetic energy is very close to zero.</p>
+
+                    <p>Another important thing is friction. Dampening wastes energy, so simulation stops at some point, otherwise, it would keep moving forever.</p>
+
+                    <p>Each node has a mass, size and colour derived from the input data. In other words bigger value - bigger mass and size of the bubble. The relation between nodes is expressed by the length of spring, closer relation - shorter spring.</p>
 
                     <div class="gallery">
                         <a href="img/projects/force-based-chart/force-based-chart-1.jpg">
