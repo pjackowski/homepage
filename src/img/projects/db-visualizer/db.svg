@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1596" height="3641" x="0" y="0">
+<circle cx="0" cy="34" r="20" fill="blue" stroke="black" stroke-width="2" />
+<text x="30" y="44" font-family="verdana" font-size="20" fill="black" >Database ree (3)</text>
+<circle cx="30" cy="80" r="10" fill="red" stroke="black" stroke-width="2" />
+<text x="45" y="88" font-family="verdana" font-size="16" fill="black" >cars</text>
+<circle cx="50" cy="126" r="5" fill="yellow" stroke="black" stroke-width="2" />
+<text x="60" y="132" font-family="verdana" font-size="12" fill="black" >STRUCTURE</text>
+<text x="65" y="154" font-family="verdana" font-size="12" fill="black" >id INT (10) not_null primary_key unsigned auto_increment</text>
+<text x="65" y="176" font-family="verdana" font-size="12" fill="black" >make STRING (50) not_null</text>
+<text x="65" y="198" font-family="verdana" font-size="12" fill="black" >model STRING (50) not_null</text>
+<text x="65" y="220" font-family="verdana" font-size="12" fill="black" >category INT (6) not_null</text>
+<text x="65" y="242" font-family="verdana" font-size="12" fill="black" >price INT (10) not_null unsigned</text>
+<text x="65" y="264" font-family="verdana" font-size="12" fill="black" >year DATE (10) not_null binary</text>
+<text x="65" y="286" font-family="verdana" font-size="12" fill="black" >mileage INT (10) not_null unsigned</text>
+<text x="65" y="308" font-family="verdana" font-size="12" fill="black" >engine_size STRING (10) not_null</text>
+<text x="65" y="330" font-family="verdana" font-size="12" fill="black" >foto6 STRING (50) not_null</text>
+<text x="65" y="352" font-family="verdana" font-size="12" fill="black" >sort INT (5) not_null unsigned</text>
+<circle cx="50" cy="390" r="5" fill="yellow" stroke="black" stroke-width="2" />
+<text x="60" y="396" font-family="verdana" font-size="12" fill="black" >DATA</text>
+<rect x="65" y="400" width="78" height="25" fill="#d3dce3" stroke="black" stroke-width="0" /><text x="71" y="418" font-family="verdana" font-size="12" fill="black" >id </text>
+<rect x="145" y="400" width="318" height="25" fill="#d3dce3" stroke="black" stroke-width="0" /><text x="151" y="418" font-family="verdana" font-size="12" fill="black" >make </text>
+<rect x="465" y="400" width="318" height="25" fill="#d3dce3" stroke="black" stroke-width="0" /><text x="471" y="418" font-family="verdana" font-size="12" fill="black" >model </text>
+<rect x="785" y="400" width="54" height="25" fill="#d3dce3" stroke="black" stroke-width="0" /><text x="791" y="418" font-family="verdana" font-size="12" fill="black" >category </text>
+<rect x="841" y="400" width="78" height="25" fill="#d3dce3" stroke="black" stroke-width="0" /><text x="847" y="418" font-family="verdana" font-size="12" fill="black" >price </text>
+<rect x="921" y="400" width="78" height="25" fill="#d3dce3" stroke="black" stroke-width="0" /><text x="927" y="418" font-family="verdana" font-size="12" fill="black" >year </text>
+<rect x="1001" y="400" width="78" height="25" fill="#d3dce3" stroke="black" stroke-width="0" /><text x="1007" y="418" font-family="verdana" font-size="12" fill="black" >mileage </text>
+<rect x="1081" y="400" width="78" height="25" fill="#d3dce3" stroke="black" stroke-width="0" /><text x="1087" y="418" font-family="verdana" font-size="12" fill="black" >engine_size </text>
+<rect x="1161" y="400" width="318" height="25" fill="#d3dce3" stroke="black" stroke-width="0" /><text x="1167" y="418" font-family="verdana" font-size="12" fill="black" >foto6 </text>
+<rect x="1481" y="400" width="48" height="25" fill="#d3dce3" stroke="black" stroke-width="0" /><text x="1487" y="418" font-family="verdana" font-size="12" fill="black" >sort </text>
+<rect x="65" y="427" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="445" font-family="verdana" font-size="12" fill="black" >1</text>
+<rect x="145" y="427" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="445" font-family="verdana" font-size="12" fill="black" >PolonezPolonezPolonezPolonezPolonezPolonez</text>
+<rect x="465" y="427" width="318" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="445" font-family="verdana" font-size="12" fill="black" >1</text>
+<rect x="785" y="427" width="54" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="791" y="445" font-family="verdana" font-size="12" fill="black" >2</text>
+<rect x="841" y="427" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="847" y="445" font-family="verdana" font-size="12" fill="black" >20</text>
+<rect x="921" y="427" width="78" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="927" y="445" font-family="verdana" font-size="12" fill="black" >2007-06-05</text>
+<rect x="1001" y="427" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="1007" y="445" font-family="verdana" font-size="12" fill="black" >323000</text>
+<rect x="1081" y="427" width="78" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="1087" y="445" font-family="verdana" font-size="12" fill="black" >1.8</text>
+<rect x="1161" y="427" width="318" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="1167" y="445" font-family="verdana" font-size="12" fill="black" >polonez.jpg</text>
+<rect x="1481" y="427" width="48" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="1487" y="445" font-family="verdana" font-size="12" fill="black" >1</text>
+<rect x="65" y="454" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="472" font-family="verdana" font-size="12" fill="black" >2</text>
+<rect x="145" y="454" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="472" font-family="verdana" font-size="12" fill="black" >Fiat</text>
+<rect x="465" y="454" width="318" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="472" font-family="verdana" font-size="12" fill="black" >Bravo</text>
+<rect x="785" y="454" width="54" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="791" y="472" font-family="verdana" font-size="12" fill="black" >3</text>
+<rect x="841" y="454" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="847" y="472" font-family="verdana" font-size="12" fill="black" >400</text>
+<rect x="921" y="454" width="78" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="927" y="472" font-family="verdana" font-size="12" fill="black" >2007-06-05</text>
+<rect x="1001" y="454" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="1007" y="472" font-family="verdana" font-size="12" fill="black" >75000</text>
+<rect x="1081" y="454" width="78" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="1087" y="472" font-family="verdana" font-size="12" fill="black" >1.4</text>
+<rect x="1161" y="454" width="318" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="1167" y="472" font-family="verdana" font-size="12" fill="black" >fia.png</text>
+<rect x="1481" y="454" width="48" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="1487" y="472" font-family="verdana" font-size="12" fill="black" >2</text>
+<rect x="65" y="481" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="499" font-family="verdana" font-size="12" fill="black" >3</text>
+<rect x="145" y="481" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="499" font-family="verdana" font-size="12" fill="black" >Mercedes</text>
+<rect x="465" y="481" width="318" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="499" font-family="verdana" font-size="12" fill="black" >Vito</text>
+<rect x="785" y="481" width="54" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="791" y="499" font-family="verdana" font-size="12" fill="black" >4</text>
+<rect x="841" y="481" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="847" y="499" font-family="verdana" font-size="12" fill="black" >25000</text>
+<rect x="921" y="481" width="78" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="927" y="499" font-family="verdana" font-size="12" fill="black" >2007-06-05</text>
+<rect x="1001" y="481" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="1007" y="499" font-family="verdana" font-size="12" fill="black" >50000</text>
+<rect x="1081" y="481" width="78" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="1087" y="499" font-family="verdana" font-size="12" fill="black" >2.4</text>
+<rect x="1161" y="481" width="318" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="1167" y="499" font-family="verdana" font-size="12" fill="black" >vito.png</text>
+<rect x="1481" y="481" width="48" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="1487" y="499" font-family="verdana" font-size="12" fill="black" >3</text>
+<rect x="65" y="508" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="526" font-family="verdana" font-size="12" fill="black" >4</text>
+<rect x="145" y="508" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="526" font-family="verdana" font-size="12" fill="black" >BMW</text>
+<rect x="465" y="508" width="318" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="526" font-family="verdana" font-size="12" fill="black" >X5</text>
+<rect x="785" y="508" width="54" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="791" y="526" font-family="verdana" font-size="12" fill="black" >5</text>
+<rect x="841" y="508" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="847" y="526" font-family="verdana" font-size="12" fill="black" >50000</text>
+<rect x="921" y="508" width="78" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="927" y="526" font-family="verdana" font-size="12" fill="black" >2007-06-05</text>
+<rect x="1001" y="508" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="1007" y="526" font-family="verdana" font-size="12" fill="black" >30000</text>
+<rect x="1081" y="508" width="78" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="1087" y="526" font-family="verdana" font-size="12" fill="black" >2.4</text>
+<rect x="1161" y="508" width="318" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="1167" y="526" font-family="verdana" font-size="12" fill="black" >3232bwm.jpg</text>
+<rect x="1481" y="508" width="48" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="1487" y="526" font-family="verdana" font-size="12" fill="black" >4</text>
+<rect x="65" y="535" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="553" font-family="verdana" font-size="12" fill="black" >5</text>
+<rect x="145" y="535" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="553" font-family="verdana" font-size="12" fill="black" >Skoda</text>
+<rect x="465" y="535" width="318" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="553" font-family="verdana" font-size="12" fill="black" >Octavia</text>
+<rect x="785" y="535" width="54" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="791" y="553" font-family="verdana" font-size="12" fill="black" >3</text>
+<rect x="841" y="535" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="847" y="553" font-family="verdana" font-size="12" fill="black" >15000</text>
+<rect x="921" y="535" width="78" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="927" y="553" font-family="verdana" font-size="12" fill="black" >2007-06-05</text>
+<rect x="1001" y="535" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="1007" y="553" font-family="verdana" font-size="12" fill="black" >12000</text>
+<rect x="1081" y="535" width="78" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="1087" y="553" font-family="verdana" font-size="12" fill="black" >1.8</text>
+<rect x="1161" y="535" width="318" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="1167" y="553" font-family="verdana" font-size="12" fill="black" >octavia.jpg</text>
+<rect x="1481" y="535" width="48" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="1487" y="553" font-family="verdana" font-size="12" fill="black" >5</text>
+<circle cx="30" cy="613.5" r="10" fill="red" stroke="black" stroke-width="2" />
+<text x="45" y="621.5" font-family="verdana" font-size="16" fill="black" >categories</text>
+<circle cx="50" cy="659.5" r="5" fill="yellow" stroke="black" stroke-width="2" />
+<text x="60" y="665.5" font-family="verdana" font-size="12" fill="black" >STRUCTURE</text>
+<text x="65" y="687.5" font-family="verdana" font-size="12" fill="black" >id INT (10) not_null primary_key unsigned auto_increment</text>
+<text x="65" y="709.5" font-family="verdana" font-size="12" fill="black" >name STRING (50) not_null</text>
+<text x="65" y="731.5" font-family="verdana" font-size="12" fill="black" >sort INT (5) not_null unsigned</text>
+<circle cx="50" cy="769.5" r="5" fill="yellow" stroke="black" stroke-width="2" />
+<text x="60" y="775.5" font-family="verdana" font-size="12" fill="black" >DATA</text>
+<rect x="65" y="779.5" width="78" height="25" fill="#d3dce3" stroke="black" stroke-width="0" /><text x="71" y="797.5" font-family="verdana" font-size="12" fill="black" >id </text>
+<rect x="145" y="779.5" width="318" height="25" fill="#d3dce3" stroke="black" stroke-width="0" /><text x="151" y="797.5" font-family="verdana" font-size="12" fill="black" >name </text>
+<rect x="465" y="779.5" width="48" height="25" fill="#d3dce3" stroke="black" stroke-width="0" /><text x="471" y="797.5" font-family="verdana" font-size="12" fill="black" >sort </text>
+<rect x="65" y="806.5" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="824.5" font-family="verdana" font-size="12" fill="black" >1</text>
+<rect x="145" y="806.5" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="824.5" font-family="verdana" font-size="12" fill="black" >Car</text>
+<rect x="465" y="806.5" width="48" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="824.5" font-family="verdana" font-size="12" fill="black" >1</text>
+<rect x="65" y="833.5" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="851.5" font-family="verdana" font-size="12" fill="black" >2</text>
+<rect x="145" y="833.5" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="851.5" font-family="verdana" font-size="12" fill="black" >Van</text>
+<rect x="465" y="833.5" width="48" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="851.5" font-family="verdana" font-size="12" fill="black" >2</text>
+<rect x="65" y="860.5" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="878.5" font-family="verdana" font-size="12" fill="black" >3</text>
+<rect x="145" y="860.5" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="878.5" font-family="verdana" font-size="12" fill="black" >Convertibles</text>
+<rect x="465" y="860.5" width="48" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="878.5" font-family="verdana" font-size="12" fill="black" >1</text>
+<rect x="65" y="887.5" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="905.5" font-family="verdana" font-size="12" fill="black" >4</text>
+<rect x="145" y="887.5" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="905.5" font-family="verdana" font-size="12" fill="black" >Luxury Cars</text>
+<rect x="465" y="887.5" width="48" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="905.5" font-family="verdana" font-size="12" fill="black" >2</text>
+<rect x="65" y="914.5" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="932.5" font-family="verdana" font-size="12" fill="black" >5</text>
+<rect x="145" y="914.5" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="932.5" font-family="verdana" font-size="12" fill="black" >Minivans</text>
+<rect x="465" y="914.5" width="48" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="932.5" font-family="verdana" font-size="12" fill="black" >3</text>
+<rect x="65" y="941.5" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="959.5" font-family="verdana" font-size="12" fill="black" >6</text>
+<rect x="145" y="941.5" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="959.5" font-family="verdana" font-size="12" fill="black" >Vans</text>
+<rect x="465" y="941.5" width="48" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="959.5" font-family="verdana" font-size="12" fill="black" >4</text>
+<rect x="65" y="968.5" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="986.5" font-family="verdana" font-size="12" fill="black" >7</text>
+<rect x="145" y="968.5" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="986.5" font-family="verdana" font-size="12" fill="black" >Passenger Cars</text>
+<rect x="465" y="968.5" width="48" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="986.5" font-family="verdana" font-size="12" fill="black" >5</text>
+<rect x="65" y="995.5" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1013.5" font-family="verdana" font-size="12" fill="black" >8</text>
+<rect x="145" y="995.5" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1013.5" font-family="verdana" font-size="12" fill="black" >Sport-Utility Vehicles</text>
+<rect x="465" y="995.5" width="48" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="1013.5" font-family="verdana" font-size="12" fill="black" >6</text>
+<rect x="65" y="1022.5" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1040.5" font-family="verdana" font-size="12" fill="black" >9</text>
+<rect x="145" y="1022.5" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1040.5" font-family="verdana" font-size="12" fill="black" >Sports Cars</text>
+<rect x="465" y="1022.5" width="48" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="1040.5" font-family="verdana" font-size="12" fill="black" >7</text>
+<rect x="65" y="1049.5" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1067.5" font-family="verdana" font-size="12" fill="black" >10</text>
+<rect x="145" y="1049.5" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1067.5" font-family="verdana" font-size="12" fill="black" >Trucks</text>
+<rect x="465" y="1049.5" width="48" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="1067.5" font-family="verdana" font-size="12" fill="black" >8</text>
+<rect x="65" y="1076.5" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1094.5" font-family="verdana" font-size="12" fill="black" >11</text>
+<rect x="145" y="1076.5" width="318" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1094.5" font-family="verdana" font-size="12" fill="black" >Wagons</text>
+<rect x="465" y="1076.5" width="48" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="471" y="1094.5" font-family="verdana" font-size="12" fill="black" >9</text>
+<circle cx="30" cy="1158" r="10" fill="red" stroke="black" stroke-width="2" />
+<text x="45" y="1166" font-family="verdana" font-size="16" fill="black" >makes</text>
+<circle cx="50" cy="1204" r="5" fill="yellow" stroke="black" stroke-width="2" />
+<text x="60" y="1210" font-family="verdana" font-size="12" fill="black" >STRUCTURE</text>
+<text x="65" y="1232" font-family="verdana" font-size="12" fill="black" >id INT (10) not_null primary_key unsigned auto_increment</text>
+<text x="65" y="1254" font-family="verdana" font-size="12" fill="black" >name STRING (30) not_null</text>
+<circle cx="50" cy="1292" r="5" fill="yellow" stroke="black" stroke-width="2" />
+<text x="60" y="1298" font-family="verdana" font-size="12" fill="black" >DATA</text>
+<rect x="65" y="1302" width="78" height="25" fill="#d3dce3" stroke="black" stroke-width="0" /><text x="71" y="1320" font-family="verdana" font-size="12" fill="black" >id </text>
+<rect x="145" y="1302" width="198" height="25" fill="#d3dce3" stroke="black" stroke-width="0" /><text x="151" y="1320" font-family="verdana" font-size="12" fill="black" >name </text>
+<rect x="65" y="1329" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1347" font-family="verdana" font-size="12" fill="black" >1</text>
+<rect x="145" y="1329" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1347" font-family="verdana" font-size="12" fill="black" >Alfa Romeo</text>
+<rect x="65" y="1356" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1374" font-family="verdana" font-size="12" fill="black" >2</text>
+<rect x="145" y="1356" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1374" font-family="verdana" font-size="12" fill="black" >Artega</text>
+<rect x="65" y="1383" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1401" font-family="verdana" font-size="12" fill="black" >3</text>
+<rect x="145" y="1383" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1401" font-family="verdana" font-size="12" fill="black" >Aston Martin</text>
+<rect x="65" y="1410" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1428" font-family="verdana" font-size="12" fill="black" >4</text>
+<rect x="145" y="1410" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1428" font-family="verdana" font-size="12" fill="black" >Audi</text>
+<rect x="65" y="1437" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1455" font-family="verdana" font-size="12" fill="black" >5</text>
+<rect x="145" y="1437" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1455" font-family="verdana" font-size="12" fill="black" >Autosan</text>
+<rect x="65" y="1464" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1482" font-family="verdana" font-size="12" fill="black" >6</text>
+<rect x="145" y="1464" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1482" font-family="verdana" font-size="12" fill="black" >AC</text>
+<rect x="65" y="1491" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1509" font-family="verdana" font-size="12" fill="black" >7</text>
+<rect x="145" y="1491" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1509" font-family="verdana" font-size="12" fill="black" >Acura</text>
+<rect x="65" y="1518" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1536" font-family="verdana" font-size="12" fill="black" >8</text>
+<rect x="145" y="1518" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1536" font-family="verdana" font-size="12" fill="black" >Bentley</text>
+<rect x="65" y="1545" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1563" font-family="verdana" font-size="12" fill="black" >9</text>
+<rect x="145" y="1545" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1563" font-family="verdana" font-size="12" fill="black" >BMC</text>
+<rect x="65" y="1572" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1590" font-family="verdana" font-size="12" fill="black" >10</text>
+<rect x="145" y="1572" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1590" font-family="verdana" font-size="12" fill="black" >BMW</text>
+<rect x="65" y="1599" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1617" font-family="verdana" font-size="12" fill="black" >11</text>
+<rect x="145" y="1599" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1617" font-family="verdana" font-size="12" fill="black" >Bugatti</text>
+<rect x="65" y="1626" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1644" font-family="verdana" font-size="12" fill="black" >12</text>
+<rect x="145" y="1626" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1644" font-family="verdana" font-size="12" fill="black" >Buick</text>
+<rect x="65" y="1653" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1671" font-family="verdana" font-size="12" fill="black" >13</text>
+<rect x="145" y="1653" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1671" font-family="verdana" font-size="12" fill="black" >Cadillac</text>
+<rect x="65" y="1680" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1698" font-family="verdana" font-size="12" fill="black" >14</text>
+<rect x="145" y="1680" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1698" font-family="verdana" font-size="12" fill="black" >Caterham</text>
+<rect x="65" y="1707" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1725" font-family="verdana" font-size="12" fill="black" >15</text>
+<rect x="145" y="1707" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1725" font-family="verdana" font-size="12" fill="black" >Chevrolet</text>
+<rect x="65" y="1734" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1752" font-family="verdana" font-size="12" fill="black" >16</text>
+<rect x="145" y="1734" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1752" font-family="verdana" font-size="12" fill="black" >Corvette</text>
+<rect x="65" y="1761" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1779" font-family="verdana" font-size="12" fill="black" >17</text>
+<rect x="145" y="1761" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1779" font-family="verdana" font-size="12" fill="black" >Chrysler</text>
+<rect x="65" y="1788" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1806" font-family="verdana" font-size="12" fill="black" >18</text>
+<rect x="145" y="1788" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1806" font-family="verdana" font-size="12" fill="black" >Citroen</text>
+<rect x="65" y="1815" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1833" font-family="verdana" font-size="12" fill="black" >19</text>
+<rect x="145" y="1815" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1833" font-family="verdana" font-size="12" fill="black" >Dacia</text>
+<rect x="65" y="1842" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1860" font-family="verdana" font-size="12" fill="black" >20</text>
+<rect x="145" y="1842" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1860" font-family="verdana" font-size="12" fill="black" >Daewoo</text>
+<rect x="65" y="1869" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1887" font-family="verdana" font-size="12" fill="black" >21</text>
+<rect x="145" y="1869" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1887" font-family="verdana" font-size="12" fill="black" >DAF</text>
+<rect x="65" y="1896" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1914" font-family="verdana" font-size="12" fill="black" >22</text>
+<rect x="145" y="1896" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1914" font-family="verdana" font-size="12" fill="black" >Daihatsu</text>
+<rect x="65" y="1923" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1941" font-family="verdana" font-size="12" fill="black" >23</text>
+<rect x="145" y="1923" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1941" font-family="verdana" font-size="12" fill="black" >Dodge</text>
+<rect x="65" y="1950" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1968" font-family="verdana" font-size="12" fill="black" >24</text>
+<rect x="145" y="1950" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1968" font-family="verdana" font-size="12" fill="black" >Donkervoort</text>
+<rect x="65" y="1977" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="1995" font-family="verdana" font-size="12" fill="black" >25</text>
+<rect x="145" y="1977" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="1995" font-family="verdana" font-size="12" fill="black" >Ferrari</text>
+<rect x="65" y="2004" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2022" font-family="verdana" font-size="12" fill="black" >26</text>
+<rect x="145" y="2004" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2022" font-family="verdana" font-size="12" fill="black" >Fiat</text>
+<rect x="65" y="2031" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2049" font-family="verdana" font-size="12" fill="black" >27</text>
+<rect x="145" y="2031" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2049" font-family="verdana" font-size="12" fill="black" >Ford</text>
+<rect x="65" y="2058" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2076" font-family="verdana" font-size="12" fill="black" >28</text>
+<rect x="145" y="2058" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2076" font-family="verdana" font-size="12" fill="black" >GMC</text>
+<rect x="65" y="2085" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2103" font-family="verdana" font-size="12" fill="black" >29</text>
+<rect x="145" y="2085" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2103" font-family="verdana" font-size="12" fill="black" >Holden</text>
+<rect x="65" y="2112" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2130" font-family="verdana" font-size="12" fill="black" >30</text>
+<rect x="145" y="2112" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2130" font-family="verdana" font-size="12" fill="black" >Honda</text>
+<rect x="65" y="2139" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2157" font-family="verdana" font-size="12" fill="black" >31</text>
+<rect x="145" y="2139" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2157" font-family="verdana" font-size="12" fill="black" >Hummer</text>
+<rect x="65" y="2166" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2184" font-family="verdana" font-size="12" fill="black" >32</text>
+<rect x="145" y="2166" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2184" font-family="verdana" font-size="12" fill="black" >Hyundai</text>
+<rect x="65" y="2193" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2211" font-family="verdana" font-size="12" fill="black" >33</text>
+<rect x="145" y="2193" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2211" font-family="verdana" font-size="12" fill="black" >Infiniti</text>
+<rect x="65" y="2220" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2238" font-family="verdana" font-size="12" fill="black" >34</text>
+<rect x="145" y="2220" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2238" font-family="verdana" font-size="12" fill="black" >Isdera</text>
+<rect x="65" y="2247" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2265" font-family="verdana" font-size="12" fill="black" >35</text>
+<rect x="145" y="2247" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2265" font-family="verdana" font-size="12" fill="black" >Isuzu</text>
+<rect x="65" y="2274" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2292" font-family="verdana" font-size="12" fill="black" >36</text>
+<rect x="145" y="2274" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2292" font-family="verdana" font-size="12" fill="black" >Jaguar</text>
+<rect x="65" y="2301" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2319" font-family="verdana" font-size="12" fill="black" >37</text>
+<rect x="145" y="2301" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2319" font-family="verdana" font-size="12" fill="black" >Jeep</text>
+<rect x="65" y="2328" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2346" font-family="verdana" font-size="12" fill="black" >38</text>
+<rect x="145" y="2328" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2346" font-family="verdana" font-size="12" fill="black" >Kia</text>
+<rect x="65" y="2355" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2373" font-family="verdana" font-size="12" fill="black" >39</text>
+<rect x="145" y="2355" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2373" font-family="verdana" font-size="12" fill="black" >Koenigsegg</text>
+<rect x="65" y="2382" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2400" font-family="verdana" font-size="12" fill="black" >40</text>
+<rect x="145" y="2382" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2400" font-family="verdana" font-size="12" fill="black" >Lamborghini</text>
+<rect x="65" y="2409" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2427" font-family="verdana" font-size="12" fill="black" >41</text>
+<rect x="145" y="2409" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2427" font-family="verdana" font-size="12" fill="black" >Lancia</text>
+<rect x="65" y="2436" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2454" font-family="verdana" font-size="12" fill="black" >42</text>
+<rect x="145" y="2436" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2454" font-family="verdana" font-size="12" fill="black" >Lexus</text>
+<rect x="65" y="2463" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2481" font-family="verdana" font-size="12" fill="black" >43</text>
+<rect x="145" y="2463" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2481" font-family="verdana" font-size="12" fill="black" >Lincoln</text>
+<rect x="65" y="2490" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2508" font-family="verdana" font-size="12" fill="black" >44</text>
+<rect x="145" y="2490" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2508" font-family="verdana" font-size="12" fill="black" >Lotus</text>
+<rect x="65" y="2517" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2535" font-family="verdana" font-size="12" fill="black" >45</text>
+<rect x="145" y="2517" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2535" font-family="verdana" font-size="12" fill="black" >Lada</text>
+<rect x="65" y="2544" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2562" font-family="verdana" font-size="12" fill="black" >46</text>
+<rect x="145" y="2544" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2562" font-family="verdana" font-size="12" fill="black" >Mahindra</text>
+<rect x="65" y="2571" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2589" font-family="verdana" font-size="12" fill="black" >47</text>
+<rect x="145" y="2571" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2589" font-family="verdana" font-size="12" fill="black" >Maserati</text>
+<rect x="65" y="2598" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2616" font-family="verdana" font-size="12" fill="black" >48</text>
+<rect x="145" y="2598" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2616" font-family="verdana" font-size="12" fill="black" >Maybach</text>
+<rect x="65" y="2625" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2643" font-family="verdana" font-size="12" fill="black" >49</text>
+<rect x="145" y="2625" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2643" font-family="verdana" font-size="12" fill="black" >Mazda</text>
+<rect x="65" y="2652" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2670" font-family="verdana" font-size="12" fill="black" >50</text>
+<rect x="145" y="2652" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2670" font-family="verdana" font-size="12" fill="black" >McLaren</text>
+<rect x="65" y="2679" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2697" font-family="verdana" font-size="12" fill="black" >51</text>
+<rect x="145" y="2679" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2697" font-family="verdana" font-size="12" fill="black" >Mercedes</text>
+<rect x="65" y="2706" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2724" font-family="verdana" font-size="12" fill="black" >52</text>
+<rect x="145" y="2706" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2724" font-family="verdana" font-size="12" fill="black" >Mercury</text>
+<rect x="65" y="2733" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2751" font-family="verdana" font-size="12" fill="black" >53</text>
+<rect x="145" y="2733" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2751" font-family="verdana" font-size="12" fill="black" >Mini</text>
+<rect x="65" y="2760" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2778" font-family="verdana" font-size="12" fill="black" >54</text>
+<rect x="145" y="2760" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2778" font-family="verdana" font-size="12" fill="black" >Mitsubishi</text>
+<rect x="65" y="2787" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2805" font-family="verdana" font-size="12" fill="black" >55</text>
+<rect x="145" y="2787" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2805" font-family="verdana" font-size="12" fill="black" >Nissan</text>
+<rect x="65" y="2814" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2832" font-family="verdana" font-size="12" fill="black" >56</text>
+<rect x="145" y="2814" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2832" font-family="verdana" font-size="12" fill="black" >Opel</text>
+<rect x="65" y="2841" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2859" font-family="verdana" font-size="12" fill="black" >57</text>
+<rect x="145" y="2841" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2859" font-family="verdana" font-size="12" fill="black" >Peugeot</text>
+<rect x="65" y="2868" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2886" font-family="verdana" font-size="12" fill="black" >58</text>
+<rect x="145" y="2868" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2886" font-family="verdana" font-size="12" fill="black" >Pontiac</text>
+<rect x="65" y="2895" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2913" font-family="verdana" font-size="12" fill="black" >59</text>
+<rect x="145" y="2895" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2913" font-family="verdana" font-size="12" fill="black" >Porsche</text>
+<rect x="65" y="2922" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2940" font-family="verdana" font-size="12" fill="black" >60</text>
+<rect x="145" y="2922" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2940" font-family="verdana" font-size="12" fill="black" >Proton</text>
+<rect x="65" y="2949" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2967" font-family="verdana" font-size="12" fill="black" >61</text>
+<rect x="145" y="2949" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2967" font-family="verdana" font-size="12" fill="black" >Puch</text>
+<rect x="65" y="2976" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="2994" font-family="verdana" font-size="12" fill="black" >62</text>
+<rect x="145" y="2976" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="2994" font-family="verdana" font-size="12" fill="black" >Pagani</text>
+<rect x="65" y="3003" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3021" font-family="verdana" font-size="12" fill="black" >63</text>
+<rect x="145" y="3003" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3021" font-family="verdana" font-size="12" fill="black" >Renault</text>
+<rect x="65" y="3030" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3048" font-family="verdana" font-size="12" fill="black" >64</text>
+<rect x="145" y="3030" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3048" font-family="verdana" font-size="12" fill="black" >Rolls-Royce</text>
+<rect x="65" y="3057" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3075" font-family="verdana" font-size="12" fill="black" >65</text>
+<rect x="145" y="3057" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3075" font-family="verdana" font-size="12" fill="black" >Rover</text>
+<rect x="65" y="3084" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3102" font-family="verdana" font-size="12" fill="black" >66</text>
+<rect x="145" y="3084" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3102" font-family="verdana" font-size="12" fill="black" >Saab</text>
+<rect x="65" y="3111" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3129" font-family="verdana" font-size="12" fill="black" >67</text>
+<rect x="145" y="3111" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3129" font-family="verdana" font-size="12" fill="black" >Saturn</text>
+<rect x="65" y="3138" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3156" font-family="verdana" font-size="12" fill="black" >68</text>
+<rect x="145" y="3138" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3156" font-family="verdana" font-size="12" fill="black" >SEAT</text>
+<rect x="65" y="3165" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3183" font-family="verdana" font-size="12" fill="black" >69</text>
+<rect x="145" y="3165" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3183" font-family="verdana" font-size="12" fill="black" >Skoda</text>
+<rect x="65" y="3192" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3210" font-family="verdana" font-size="12" fill="black" >70</text>
+<rect x="145" y="3192" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3210" font-family="verdana" font-size="12" fill="black" >Smart</text>
+<rect x="65" y="3219" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3237" font-family="verdana" font-size="12" fill="black" >71</text>
+<rect x="145" y="3219" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3237" font-family="verdana" font-size="12" fill="black" >Subaru</text>
+<rect x="65" y="3246" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3264" font-family="verdana" font-size="12" fill="black" >72</text>
+<rect x="145" y="3246" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3264" font-family="verdana" font-size="12" fill="black" >Suzuki</text>
+<rect x="65" y="3273" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3291" font-family="verdana" font-size="12" fill="black" >73</text>
+<rect x="145" y="3273" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3291" font-family="verdana" font-size="12" fill="black" >Toyota</text>
+<rect x="65" y="3300" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3318" font-family="verdana" font-size="12" fill="black" >74</text>
+<rect x="145" y="3300" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3318" font-family="verdana" font-size="12" fill="black" >TVR</text>
+<rect x="65" y="3327" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3345" font-family="verdana" font-size="12" fill="black" >75</text>
+<rect x="145" y="3327" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3345" font-family="verdana" font-size="12" fill="black" >Trabant</text>
+<rect x="65" y="3354" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3372" font-family="verdana" font-size="12" fill="black" >76</text>
+<rect x="145" y="3354" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3372" font-family="verdana" font-size="12" fill="black" >Vauxhall</text>
+<rect x="65" y="3381" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3399" font-family="verdana" font-size="12" fill="black" >77</text>
+<rect x="145" y="3381" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3399" font-family="verdana" font-size="12" fill="black" >Volkswagen</text>
+<rect x="65" y="3408" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3426" font-family="verdana" font-size="12" fill="black" >78</text>
+<rect x="145" y="3408" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3426" font-family="verdana" font-size="12" fill="black" >Volvo</text>
+<rect x="65" y="3435" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3453" font-family="verdana" font-size="12" fill="black" >79</text>
+<rect x="145" y="3435" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3453" font-family="verdana" font-size="12" fill="black" >Wiesmann</text>
+<rect x="65" y="3462" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3480" font-family="verdana" font-size="12" fill="black" >80</text>
+<rect x="145" y="3462" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3480" font-family="verdana" font-size="12" fill="black" >Wo?ga</text>
+<rect x="65" y="3489" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3507" font-family="verdana" font-size="12" fill="black" >81</text>
+<rect x="145" y="3489" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3507" font-family="verdana" font-size="12" fill="black" >Zastava</text>
+<rect x="65" y="3516" width="78" height="25" fill="#e5e5e5" stroke="black" stroke-width="0" /><text x="71" y="3534" font-family="verdana" font-size="12" fill="black" >82</text>
+<rect x="145" y="3516" width="198" height="25" fill="#d5d5d5" stroke="black" stroke-width="0" /><text x="151" y="3534" font-family="verdana" font-size="12" fill="black" >Other</text>
+</svg>
