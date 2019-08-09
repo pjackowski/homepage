@@ -17,8 +17,8 @@ img {
 .photo {
     width: 125px;
     height: 125px;
-    margin-left: 20px;
-    margin-right: 15px;
+    float: right;
+    margin: 10px 3px 3px 20px;
 }
 
 .screenshot {
@@ -32,6 +32,9 @@ img {
     opacity: 0.6;
 }
 
-.zooniverse img {
-    margin: 10px auto;
+.logo {
+    width: 75%;
+    float: right;
+    margin: 10px 3px 3px 10px;
+    max-width: 250px;
 }
