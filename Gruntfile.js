@@ -29,7 +29,7 @@ module.exports = function (grunt) {
             // In-depth information about the options:
             // https://github.com/nDmitry/grunt-autoprefixer#options
             options: {
-                browsers: [ 'last 2 version', 'ie 6', 'ie 7', 'ie 8' ],
+                browsers: [ 'last 3 version' ],
                 cascade: true
             }
         },
@@ -54,7 +54,7 @@ module.exports = function (grunt) {
                 // In-depth information about the options:
                 // https://github.com/GoalSmashers/clean-css#how-to-use-clean-css-programmatically
                 options: {
-                    compatibility: 'ie8',
+                    compatibility: '*',
                     keepSpecialComments: '*'
                 }
             }
