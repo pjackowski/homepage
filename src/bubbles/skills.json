@@ -1,0 +1,12 @@
+{
+    "data": {
+        "nodes": [
+            {
+                "id": 0, "name": "JavaScript", "value": 666,
+                "related": [
+                    { "id": 0, "value": 666 }
+                ]
+            }
+        ]
+    }
+}
