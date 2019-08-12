@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<nodes>
+
+    <node id="0" name="JavaScript" value="900">
+        <related id="5" value="400"/>
+        <related id="6" value="500"/>
+        <related id="7" value="500"/>
+        <related id="10" value="600"/>
+        <related id="26" value="600"/>
+        <related id="40" value="500"/>
+    </node>
+    <node id="5" name="jQuery" value="900"/>
+    <node id="6" name="QUnit" value="730"/>
+    <node id="7" name="AJAX" value="800"/>
+    <node id="10" name="node.js" value="600"/>
+    <node id="26" name="async.js" value="550"/>
+    <node id="40" name="OpenLaszlo" value="900"/>
+
+    <node id="1" name="HTML" value="900">
+        <related id="2" value="600"/>
+        <related id="3" value="400"/>
+        <related id="4" value="600"/>
+        <related id="15" value="800"/>
+        <related id="24" value="400"/>
+    </node>
+    <node id="2" name="HTML5" value="660"/>
+    <node id="3" name="CSS" value="830"/>
+    <node id="4" name="CSS3" value="600"/>
+    <node id="15" name="SEO" value="500"/>
+    <node id="24" name="DOM" value="620"/>
+
+    <node id="18" name="visualisation" value="700">
+        <related id="20" value="620"/>
+        <related id="30" value="660"/>
+        <related id="31" value="550"/>
+        <related id="35" value="450"/>
+        <related id="36" value="460"/>
+        <related id="37" value="500"/>
+    </node>
+    <node id="20" name="OpenGL" value="550"/>
+    <node id="30" name="processing.js" value="400"/>
+    <node id="31" name="HTML Canvas" value="550"/>
+    <node id="35" name="FusionCharts" value="880"/>
+    <node id="36" name="Raphael" value="860"/>
+    <node id="37" name="SVG" value="800"/>
+
+    <node id="13" name="crossbrowser tests" value="700">
+        <related id="14" value="580"/>
+    </node>
+    <node id="14" name="unit tests" value="750">
+        <related id="19" value="600"/>
+    </node>
+    <node id="19" name="useability tests" value="700">
+        <related id="46" value="660"/>
+    </node>
+    <node id="46" name="automated tests" value="650">
+        <related id="13" value="700"/>
+    </node>
+
+    <node id="8" name="JSON" value="660"/>
+    <node id="9" name="XML" value="660">
+        <related id="8" value="600"/>
+    </node>
+    <node id="38" name="SQL" value="630">
+        <related id="9" value="600"/>
+    </node>
+    <node id="11" name="PostgreSQL" value="630">
+        <related id="38" value="600"/>
+    </node>
+    <node id="12" name="MySQL" value="520">
+        <related id="11" value="600"/>
+    </node>
+
+    <node id="42" name="Python" value="650">
+        <related id="43" value="720"/>
+    </node>
+    <node id="41" name="C++" value="640">
+        <related id="42" value="680"/>
+    </node>
+    <node id="43" name="Django" value="660"/>
+
+    <node id="32" name="Linux" value="860">
+        <related id="33" value="600"/>
+    </node>
+    <node id="33" name="FreeBSD" value="660">
+        <related id="47" value="600"/>
+    </node>
+    <node id="47" name="Windows" value="640"/>
+
+</nodes>

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    background: #000 url('../img/gradients.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    height: calc(100% - 20px);
+    font-family: Helvetica, Arial, Sans-Serif;
+    overflow: hidden;
+}
+
+div {
+    width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.diagram {
+    /* width is defined for all divs */
+    height: 500px;
+    border: 1px solid #333;
+    background-color: #FFF;
+}
+
+.controls {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.controls li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.controls li img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
