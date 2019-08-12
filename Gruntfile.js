@@ -130,9 +130,6 @@ module.exports = function (grunt) {
             build: {
                 files: {
                     '<%= settings.dir.dist %>/index.html': '<%= settings.dir.dist %>/index.html'
-                    // DO NOT minify the 404 page! (the page needs to have more
-                    // than 512 bytes in order for IE to display it)
-                    // http://www.404-error-page.com/404-error-page-too-short-problem-microsoft-ie.shtml
                 },
 
                 // In-depth information about the options:
