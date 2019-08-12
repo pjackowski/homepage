@@ -93,8 +93,7 @@ module.exports = function (grunt) {
 
                     // except: files from the 'css/' and 'js/' directory,
                     // other tasks will handle the copying of these files
-                    '!css/*',
-                    '!js*'
+                    '!css/*'
                 ]
             }
         },
