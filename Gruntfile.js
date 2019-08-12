@@ -35,17 +35,15 @@ module.exports = function (grunt) {
         },
 
         clean: {
-            // List of files that will be removed before the
-            // build process is started
+            // List of files that will be removed before the build process is started
             all: [
-                '.tmp', // used by the `usemin` task
+                '.tmp', // used by the 'usemin' task
                 '<%= settings.dir.dist %>'
             ],
 
-            // List of files no longer required after the build
-            // process is completed
+            // List of files no longer required after the build process is completed
             tmp: [
-                '.tmp'  // used by the `usemin` task
+                '.tmp'  // used by the 'usemin' task
             ]
         },
 
@@ -93,10 +91,10 @@ module.exports = function (grunt) {
                     // copy all files
                     '**',
 
-                    // except: files from the `css/` and `js/` directory
-                    // (other tasks will handle the copying of these files)
+                    // except: files from the 'css/' and 'js/' directory,
+                    // other tasks will handle the copying of these files
                     '!css/*',
-                    '!img/old/*'
+                    '!js*'
                 ]
             }
         },
@@ -124,7 +122,7 @@ module.exports = function (grunt) {
                 '!<%= settings.dir.src %>/js/*.min.js'
             ],
             options: {
-                // Search for `.jshintrc` files relative to files being linted
+                // Search for '.jshintrc' files relative to files being linted
                 jshintrc: true
             }
         },
@@ -268,7 +266,7 @@ module.exports = function (grunt) {
     ]);
 
     // default task
-    // (same as `build`, as `build` will be used more often)
+    // (same as 'build', as 'build' will be used more often)
     grunt.registerTask('default', [
         'build'
     ]);
