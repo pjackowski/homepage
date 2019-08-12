@@ -117,8 +117,7 @@ module.exports = function (grunt) {
         jshint: {
             files: [
                 'Gruntfile.js',
-                '<%= settings.dir.src %>/js/*.js',
-                '!<%= settings.dir.src %>/js/*.min.js'
+                '<%= settings.dir.src %>/js/*.js'
             ],
             options: {
                 // Search for '.jshintrc' files relative to files being linted
