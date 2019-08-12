@@ -104,8 +104,8 @@ module.exports = function (grunt) {
                     '<%= settings.dir.dist %>/css/*.css',
                     //'<%= settings.dir.dist %>/img/*.png',
                     //'<%= settings.dir.dist %>/img/*.jpg',
-                    '<%= settings.dir.dist %>/js/*.js',
-                    '!<%= settings.dir.dist %>/js/jquery*.min.js'
+                    '<%= settings.dir.dist %>/js/*.js'
+                    //'!<%= settings.dir.dist %>/js/vendor/jquery*.min.js'
                 ]
             },
             options: {
