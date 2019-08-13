@@ -19,7 +19,5 @@
   },
   "private": true,
   "scripts": {
-    "test": "grunt test",
-    "update": "bin/update.sh"
   }
 }
