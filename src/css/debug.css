@@ -22,10 +22,6 @@
     .navigation {
         display: block;
     }
-
-    .labels {
-        display: block;
-    }
 }
 
 /* Device type marker: Portrait tablet to landscape and desktop */
@@ -35,10 +31,6 @@
     }
 
     .navigation {
-        display: block;
-    }
-
-    .labels {
         display: block;
     }
 }
@@ -52,10 +44,6 @@
     .navigation {
         display: block;
     }
-
-    .labels {
-        display: block;
-    }
 }
 
 /* Device type marker: Landscape phone to portrait tablet */
@@ -67,10 +55,6 @@
     .navigation {
         display: block;
     }
-
-    .labels {
-        display: block;
-    }
 }
 
 /* Device type marker: Landscape phones and down */
@@ -80,10 +64,6 @@
     }
 
     .navigation {
-        display: none;
-    }
-
-    .labels {
         display: none;
     }
 }
