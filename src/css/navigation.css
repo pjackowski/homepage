@@ -62,6 +62,9 @@
     .navigation {
         display: block;
     }
+    .navigation .hide_mobile {
+        display: none;
+    }
 }
 
 /* Device type marker: Landscape phones and down */
