@@ -18,20 +18,12 @@
     .type {
         background-color: red;
     }
-
-    .navigation {
-        display: block;
-    }
 }
 
 /* Device type marker: Portrait tablet to landscape and desktop */
 @media (min-width: 980px) and (max-width: 1199px) {
     .type {
         background-color: blueviolet;
-    }
-
-    .navigation {
-        display: block;
     }
 }
 
@@ -40,10 +32,6 @@
     .type {
         background-color: orangered;
     }
-
-    .navigation {
-        display: block;
-    }
 }
 
 /* Device type marker: Landscape phone to portrait tablet */
@@ -51,19 +39,11 @@
     .type {
         background-color: yellowgreen;
     }
-
-    .navigation {
-        display: block;
-    }
 }
 
 /* Device type marker: Landscape phones and down */
 @media (max-width: 500px) {
     .type {
         background-color: royalblue;
-    }
-
-    .navigation {
-        display: none;
     }
 }
