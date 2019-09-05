@@ -166,7 +166,7 @@ em {
     transition: all 0.25s ease;
 }
 
-/* Device type marker: Landscape phones and down */
+/* Device: Landscape phones and down */
 @media (max-width: 500px) {
     .documents .bar {
         margin-top: 30px;

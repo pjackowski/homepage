@@ -36,28 +36,28 @@
     color: #333;
 }
 
-/* Device type marker: Large desktop */
+/* Device: Large desktop */
 @media (min-width: 1200px) {
     .navigation {
         display: block;
     }
 }
 
-/* Device type marker: Portrait tablet to landscape and desktop */
+/* Device: Portrait tablet to landscape and desktop */
 @media (min-width: 980px) and (max-width: 1199px) {
     .navigation {
         display: block;
     }
 }
 
-/* Device type marker: Portrait tablet to landscape and desktop */
+/* Device: Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
     .navigation {
         display: block;
     }
 }
 
-/* Device type marker: Landscape phone to portrait tablet */
+/* Device: Landscape phone to portrait tablet */
 @media (max-width: 767px) {
     .navigation {
         display: block;
@@ -67,7 +67,7 @@
     }
 }
 
-/* Device type marker: Landscape phones and down */
+/* Device: Landscape phones and down */
 @media (max-width: 500px) {
     .navigation {
         display: none;
