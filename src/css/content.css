@@ -83,6 +83,7 @@ em {
 
 .skills li p {
     margin: 5px 0px;
+    text-align: left;
 }
 
 .skills li em {
