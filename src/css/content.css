@@ -88,9 +88,26 @@ em {
 
 .skills li em {
     display: inline-block;
-    min-width: 110px;
     font-style: normal;
     background-color: transparent;
+}
+
+.skills li span {
+    display: inline-block;
+}
+
+/* Device: Landscape phone, portrait tablet or bigger */
+@media (min-width: 501px) {
+    .skills li em {
+        min-width: 110px;
+    }
+}
+
+/* Device: Landscape phones and down */
+@media (max-width: 500px) {
+    .skills li em {
+        min-width: 100%;
+    }
 }
 
 .projects {
