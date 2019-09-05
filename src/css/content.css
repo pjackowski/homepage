@@ -159,11 +159,18 @@ em {
 }
 
 .documents .bar {
-    margin-top: 40px;
+    margin-top: 35px;
     padding: 2px;
     text-transform: uppercase;
     text-align: center;
     transition: all 0.25s ease;
+}
+
+/* Device type marker: Landscape phones and down */
+@media (max-width: 500px) {
+    .documents .bar {
+        margin-top: 30px;
+    }
 }
 
 .bar a {
