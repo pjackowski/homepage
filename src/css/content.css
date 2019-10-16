@@ -176,7 +176,7 @@ em {
 }
 
 .documents .bar {
-    margin-top: 35px;
+    margin-top: 38px;
     padding: 2px;
     text-transform: uppercase;
     text-align: center;
@@ -186,7 +186,7 @@ em {
 /* Device: Landscape phones and down */
 @media (max-width: 500px) {
     .documents .bar {
-        margin-top: 30px;
+        margin-top: 35px;
     }
 }
 
