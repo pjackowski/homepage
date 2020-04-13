@@ -27,7 +27,7 @@ a {
 
 em {
     font-weight: bold;
-    background-color: #E1E1E1;
+    background-color: #F1F1F1;
 }
 
 .content {
@@ -131,12 +131,10 @@ em {
     display: inline-block;
     color: #000;
     font-weight: bold;
-    box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.2);
     transition: all 0.25s ease;
 }
 
 .documents .item:hover {
-    background-color: transparent;
 }
 
 .item.doc {
@@ -207,10 +205,16 @@ em {
 .action {
     border: 1px solid #ffd700;
     background-color: #ffd700;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+    -webkit-transition: box-shadow .2s ease;
+    -moz-transition: box-shadow .2s ease;
+    -o-transition: box-shadow .2s ease;
+    transition: box-shadow .2s ease;
 }
 
 .action:hover {
-    background-color: transparent;
+    background-color: #ffd700;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5), 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .action:hover .bar {
