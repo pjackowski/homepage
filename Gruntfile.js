@@ -260,8 +260,7 @@ module.exports = function (grunt) {
         'clean:tmp'
     ]);
 
-    // default task
-    // (same as 'build', as 'build' will be used more often)
+    // default task, same as 'build'
     grunt.registerTask('default', [
         'build'
     ]);
