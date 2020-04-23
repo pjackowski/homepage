@@ -17,7 +17,7 @@ module.exports = function (grunt) {
             // Configurable paths
             dir: {
                 src: 'src',
-                dist: 'dist'
+                dist: '/usr/share/nginx/html' // optimize docker images by deploying to web root
             }
         },
 
@@ -38,7 +38,7 @@ module.exports = function (grunt) {
             // List of files that will be removed before the build process is started
             all: [
                 '.tmp', // used by the 'usemin' task
-                '<%= settings.dir.dist %>'
+                '<%= settings.dir.dist %> --force' // optimize docker images by deploying to web root
             ],
 
             // List of files no longer required after the build process is completed
